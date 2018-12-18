@@ -38,7 +38,6 @@
     <label>Senha</label>
     <input type="password"  name="Senha" class="form-control"  placeholder="Senha">
   </div>
-<<<<<<< HEAD
     </div>
    <div class="form-group">
     <label>Data de Nascimento</label>
@@ -48,11 +47,6 @@
    <div class="form-group">
     <label>Imagem</label>
     <input type="file"  name="Imagem">
-=======
-  <div class="form-group">
-    <label>Imagem</label>
-    <input type="text"  name="Imagem" class="form-control" >
->>>>>>> 96111dccda427689ea1f3fd3885013c1426bb246
   </div>
   <input type="submit" class="btn btn-primary" name="Enviar">
 </form>

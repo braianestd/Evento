@@ -1,8 +1,8 @@
 <?php
 
-class TEME{
-			private $cod_event;
-			private $cod_reg;
+class categorias{
+			private $ID;
+			private $Nome;
 		
 			
 			

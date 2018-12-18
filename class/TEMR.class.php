@@ -1,8 +1,8 @@
 <?php
 
 class categorias{
-			private $cod_loj;
-			private $cod_reg;
+			private $ID;
+			private $Nome;
 		
 			
 			

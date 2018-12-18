@@ -3,7 +3,6 @@
 class Loja{
 			private $ID;
 			private $Nome;
-			private $tipo;
 		
 			
 			
@@ -43,7 +42,6 @@ class Loja{
 					$obj = new Loja();
 					$obj->ID = $res['ID'];
 					$obj->Nome = $res ['Nome'];
-					$obj->tipo = $res ['tipo'];
 					$arrayObj[] = $obj;
 					
 				}
@@ -57,7 +55,6 @@ class Loja{
 			 $objeto = new Loja();
 			 $objeto->ID = $resultado['ID'];
 			 $objeto->Nome = $resultado['Nome'];
-			 $objeto->tipo = $resultado['tipo'];
 			 
 			 $retUsuar = $objeto;
 		 }
@@ -68,7 +65,7 @@ class Loja{
 	 }
 			  public function editar(){
 		 $sql = "UPDATE $this->tabela SET
-		 Nome = '$this->Nome', tipo = '$this->tipo' WHERE ID=$this->ID";
+		 Nome = '$this->Nome' WHERE ID=$this->ID";
 		 $retorno = mysqli_query($this->conexao,$sql);
 		 return $retorno;
 	 }
